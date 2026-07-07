@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-1.css">
+    
+</head>
+<body>
+    <div id="papel">
+        <h2>Crear Cuenta</h2>
+        <form id="formulario-registro">
+            <table>
+                <tr>
+                    <td><label for="nombres">Nombres:</label></td>
+                    <td><input type="text" id="nombres" required placeholder="Inserte sus nombres"></td>
+                </tr>
+                <tr>
+                    <td><label for="apellidos">Apellidos:</label></td>
+                    <td><input type="text" id="apellidos" required placeholder="Inserte sus apellidos"></td>
+                </tr>
+                <tr>
+                    <td><label for="telefono">N. Telefónico:</label></td>
+                    <td><input type="number" id="telefono" required placeholder="123456789"></td>
+                </tr>
+                <tr>
+                    <td><label for="contrasena">Contraseña:</label></td>
+                    <td><input type="password" id="contrasena" required></td>
+                </tr>
+                <tr>
+                    <td><label for="dni">DNI:</label></td>
+                    <td><input type="number" id="dni" required placeholder="987654321"></td>
+                </tr>
+                <tr>
+                    <td><label for="fecha">Fecha de nacimiento:</label></td>
+                    <td><input type="date" id="fecha" required></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <div class="zona-terminos">
+                            <button type="button" onclick="alert('Lorem ipsum dolor sit amet...')">
+                                📋 Leer Términos y condiciones
+                            </button>
+                            
+                            <label class="checkbox-container">
+                                <input type="checkbox" id="terminos" required>
+                                <span>Acepto los términos y condiciones</span>
+                            </label>
+                            
+                            <input type="submit" value="Guardar Cambios">
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+    <script>
+        document.getElementById('formulario-registro').addEventListener('submit', function(evento) {
+            // Prevenimos que la página se recargue por defecto
+            evento.preventDefault();
+            
+            // Si el código llega aquí, significa que HTML5 ya comprobó que todo está lleno
+            alert('✅ ¡Registro exitoso! Guardando datos y volviendo al inicio...');
+            
+            // Redirigimos a la página principal
+            window.location.href = '../index.html';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias Perú - Inicio</title>
+    <link rel="stylesheet" href="Genero noticias archivos/styles.css">
+    <style>
+        .content-area {
+            align-items: stretch !important;
+            background-color: var(--c-slate); 
+        }
+        .main-content {
+            background-color: var(--c-cream);
+        }
+        .sidebar {
+            height: auto !important; 
+        }
+    </style>
+</head>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="main-header">
+            <h1>NOTICIAS PERÚ 🌍</h1>
+            <div class="search-bar">
+                <span>🔍</span>
+                <input type="text" id="searchInput" placeholder="¿Qué deseas buscar?">
+            </div>
+        </header>
+        <nav class="top-nav">
+            <div class="brand">
+                <strong>🔶 ISILGROUP</strong>
+            </div>
+            <div class="nav-links">
+                <!-- Enlaces a archivos separados -->
+                <a href="Genero noticias archivos/Deportes.html"  >⚽ Deportes</a>
+                <a href="Genero noticias archivos/economia.html">📈 Economía</a>
+                <a href="Genero noticias archivos/politica.html">🏛️ Política</a> 
+                <a href="Genero noticias archivos/transito.html">🚗 Tránsito</a>
+                <a href="Genero noticias archivos/clima.html">☁️ Clima</a>
+            </div>
+            <div class="login">
+                <a href="Login/trabajo-1.html">👤 Iniciar Sesión</a>
+            </div>
+        </nav>
+        <div class="content-area">
+            <aside class="sidebar">
+                <div class="sidebar-brand">
+                    <h3>🔶 ISILGROUP</h3><p>Información confiable</p>
+                </div>
+                <div>
+                    <ul class="sidebar-menu">
+                        <li><a href="Genero noticias archivos/ventas.html">🏠 Ventas</a></li>
+                        <li><a href="Genero noticias archivos/negocios.html">💼 Negocios</a></li>
+                        <li><a href="Genero noticias archivos/medicina.html">⚕️ Medicina</a></li>
+                        <li><a href="Genero noticias archivos/comunidad.html">👥 Comunidad</a></li> 
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="sidebar-title">Otros</h4>
+                    <ul class="sidebar-menu">
+                        <li><a href="Genero noticias archivos/espectaculos.html">📺 Espectáculos</a></li>
+                        <li><a href="Genero noticias archivos/entretenimiento.html">🎭 Entretenimiento</a></li>
+                        <li><a href="Genero noticias archivos/mundo.html">🌎 Mundo</a></li>
+                        <li><a href="Genero noticias archivos/configuracion.html">⚙️ Configuración</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-ads">
+                    <h4 class="sidebar-title">Auspiciadores</h4>
+                    <div class="sidebar-ad-box">
+                        <a href="Anuncios y propaganda/curso.html">
+                            <span>OFERTA ACADÉMICA</span>
+                            <p>🎓 ¡Estudia Diseño Web! Matrículas abiertas con 20% de dscto.</p>
+                        </a>
+                    </div>
+                    <div class="sidebar-ad-box">
+                        <a href="Anuncios y propaganda/cyber.html">
+                            <span>CYBER WOW 2026</span>
+                            <h4>¡Renueva tu Smart TV con hasta 60% de descuento!</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="sidebar-widget">
+                    <h4 class="sidebar-title">🔥 Lo más leído</h4>
+                    <ul class="trending-list">
+                        <li>Acuerdo internacional</li>
+                        <li>Dólar en crisis</li>
+                        <li>Mundial a la vista</li>
+                    </ul>
+                </div>
+                <div class="sidebar-widget newsletter">
+                    <h4 class="sidebar-title">✉️ Boletín Diario</h4>
+                    <p>Recibe las mejores noticias en tu correo.</p>
+                    <input type="email" id="emailInput" placeholder="Tu correo electrónico">
+                    <button onclick="validarCorreo()">Suscribirse</button>
+                </div>
+            </aside>
+            <main class="main-body">
+                <div class="news-grid">
+                    <article class="news-card">
+                        <a href="Genero noticias archivos/inicio.html">
+                        <img src="Generos de noticias/imagenes_inicio/latinoa.jpg" alt="" class="news-img"><h3>¡Latinoamérica a la vista!</h3>
+                        <p>Latinoamérica es una región del continente americano que agrupa a los países donde se hablan principalmente el español y el portugués, además de algunas zonas francófonas del Caribe...</p></a>
+                    </article>
+                    <article class="news-card">
+                        <a href="Genero noticias archivos/inicio.html">
+                        <img src="Generos de noticias/imagenes_inicio/peloteo.jpg" alt="" class="news-img"><h3>Peloteo en juego</h3>
+                        <p>Pelota en juego es un término utilizado en los deportes para indicar el momento en que el balón está activo dentro del partido y los jugadores pueden disputar su posesión siguiendo las reglas establecidas...</p></a>
+                    </article>
+                    <article class="news-card">
+                        <a href="Genero noticias archivos/inicio.html">
+                        <img src="Generos de noticias/imagenes_inicio/dolar.jpg" alt="" class="news-img"><h3>Dólar en crisis</h3>
+                        <p>Cuando esto sucede, el dólar puede depreciarse frente a otras monedas, lo que significa que se necesita más dinero para comprar los mismos productos o que otras monedas ganan fuerza en comparación...</p></a>
+                    </article>
+                    <article class="news-card">
+                        <a href="Genero noticias archivos/inicio.html">
+                        <img src="Generos de noticias/imagenes_inicio/tigre.jpg" alt="" class="news-img"><h3>Tigre enjaulado</h3>
+                        <p>El área fue acordonada temporalmente mientras los veterinarios realizaban una evaluación del estado de salud del animal y revisaban las condiciones de su alojamiento...</p></a>
+                    </article>
+                    <article class="news-card">
+                        <a href="Genero noticias archivos/inicio.html">
+                        <img src="Generos de noticias/imagenes_inicio/mundial.jpg" alt="" class="news-img"><h3>Mundial a la vista</h3>
+                        <p>Los partidos se juegan en distintas sedes del país anfitrión, con estadios llenos y una fuerte cobertura mediática global. Durante la fase de eliminación directa, los equipos se enfrentan en partidos decisivos donde no hay margen de error, ya que una derrota significa la eliminación del torneo...</p></a>
+                    </article>
+                    <article class="news-card">
+                        <a href="Genero noticias archivos/inicio.html">
+                        <img src="Generos de noticias/imagenes_deporte/for.jpg" alt="" class="news-img"><h3>Fórmula 1: Resultados</h3>
+                        <p>En cada carrera, los pilotos obtienen puntos según su lugar de llegada, siendo el ganador quien recibe la mayor puntuación. A lo largo del campeonato, estos puntos se van acumulando y permiten definir quiénes son los principales contendientes al título mundial...</p></a>
+                    </article>
+                </div>
+                <div class="bottom-ads">
+                    <div class="ad-banner">
+                        <a href="Anuncios y propaganda/premium.html">
+                            <span>PUBLICIDAD EXTRA</span>
+                            <h4>¡Ahorra un 50% en tu suscripción Premium!</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Oferta por tiempo limitado.</p>
+                        </a>
+                    </div>
+                    <div class="ad-banner">
+                        <a href="Anuncios y propaganda/auto.html">
+                            <span>PUBLICIDAD EXTRA</span>
+                            <h4>El nuevo auto eléctrico inteligente ya llegó al Perú</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Agenda tu prueba de manejo.</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="news-grid">
+                    <article class="news-card">
+                        <a href="Genero noticias archivos/inicio.html">
+                        <img src="Generos de noticias/imagenes_clima/olas1.jpeg" alt="" class="news-img"><h3>Olas de calor extremas</h3>
+                        <p>Este fenómeno climático puede afectar tanto zonas urbanas como rurales y suele estar relacionado con cambios en la atmósfera, el calentamiento global y fenómenos naturales como El Niño...</p></a>
+                    </article>
+                    <article class="news-card">
+                        <a href="Genero noticias archivos/inicio.html">
+                        <img src="Generos de noticias/imagenes_medicina/sm.jpg" alt="" class="news-img"><h3>Salud mental</h3>
+                        <p>Con el objetivo de fortalecer la atención a la población, el Ministerio de Salud ha ampliado la red de Centros de Salud Mental Comunitaria, donde se brinda atención psicológica y psiquiátrica a niños, adolescentes, adultos y personas mayores...</p></a>
+                    </article>
+                    <article class="news-card">
+                        <a href="Genero noticias archivos/inicio.html">
+                        <img src="Generos de noticias/imagens_politica/acue.jpg" alt="" class="news-img"><h3>Acuerdo internacional</h3>
+                        <p>Estos acuerdos buscan fortalecer la cooperación entre naciones y resolver problemas comunes mediante el diálogo y la negociación, en lugar de conflictos...</p></a>
+                    </article>
+                    <article class="news-card">
+                        <a href="Genero noticias archivos/inicio.html">
+                        <img src="Generos de noticias/imagenes_cda/nb.jpg" alt="" class="news-img"><h3>Red de buses eléctricos</h3>
+                        <p>En Lima y otras ciudades del país, se han impulsado proyectos piloto para incorporar buses eléctricos en rutas específicas del transporte público, especialmente en corredores de alta demanda...</p></a>
+                    </article>
+                    <article class="news-card">
+                        <a href="Genero noticias archivos/inicio.html">
+                        <img src="Generos de noticias/imagenes_venta/vb.jpg" alt="" class="news-img"><h3>Venta de bienes estatales</h3>
+                        <p>Este procedimiento se realiza con el objetivo de optimizar el uso de los recursos públicos y generar ingresos que puedan ser destinados a servicios e inversiones en beneficio de la población...</p></a>
+                    </article>
+                    <article class="news-card">
+                        <a href="Genero noticias archivos/inicio.html">
+                        <img src="Generos de noticias/imagenes_mundial/ea.jpg" alt="" class="news-img"><h3>Economía global</h3>
+                        <p>La economía global también está influenciada por grandes potencias económicas como Estados Unidos, China y la Unión Europea, cuyos cambios en políticas monetarias, inflación o producción pueden afectar el comercio mundial...</p></a>
+                    </article>
+                </div>
+            </main>
+        </div>
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Noticias Perú</h3>
+                    <p>Portal informativo líder e independiente con noticias de actualidad nacional e internacional. Nos dedicamos a llevar la información más veraz, con un análisis profundo del acontecer político, económico, deportivo y tecnológico de nuestro país.</p>
+                    <div class="redes-sociales">
+                        <a href="https://facebook.com" target="_blank">
+                            <img src="Footer/footer_2/imagenes/facebook.svg" alt="Facebook">
+                        </a>
+                        <a href="https://instagram.com" target="_blank">
+                            <img src="Footer/footer_2/imagenes/instagram.svg" alt="Instagram">
+                        </a>
+                        <a href="https://x.com" target="_blank">
+                            <img src="Footer/footer_2/imagenes/twitter-x.svg" alt="X">
+                        </a>
+                        <a href="https://youtube.com" target="_blank">
+                            <img src="Footer/footer_2/imagenes/youtube.svg" alt="YouTube">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Secciones</h3>
+                    <ul>
+                        <li><a href="Genero noticias archivos/politica.html">Política</a></li>
+                        <li><a href="Genero noticias archivos/deportes.html">Deportes</a></li>
+                        <li><a href="Genero noticias archivos/comunidad.html">Comunidad</a></li>
+                        <li><a href="Genero noticias archivos/entretenimiento.html">Entretenimiento</a></li>
+                        <li><a href="Genero noticias archivos/mundo.html">Mundo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Acerca de nosotros</h3>
+                    <p>Somos un medio de comunicación líder y comprometido con la verdad. Llevamos la información más relevante del acontecer diario de manera objetiva, transparente e inmediata. Nuestro equipo trabaja las 24 horas para ofrecer una cobertura completa de la actualidad nacional e internacional, impulsando el periodismo ciudadano y la libertad de expresión en todo el país.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Legales</h3>
+                    <ul>
+                        <li><a href="Footer/footer_2/terminos.html" target="blank">Términos y Condiciones</a></li>
+                        <li><a href="Footer/footer_2/privacidad.html" target="blank">Política de Privacidad</a></li>
+                        <li><a href="Footer/footer_2/cookies.html" target="blank">Política de Cookies</a></li>
+                        <li><a href="Footer/footer_2/propiedad.html" target="blank">Propiedad Intelectual</a></li>
+                        <li><a href="Footer/footer_2/reclamaciones.html" target="blank">Libro de Reclamaciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p><strong>Redacción:</strong> noticias@peru.com</p>
+                    <p><strong>Teléfono:</strong> +51 999 999 999</p>
+                    <p><strong>Horario:</strong> Lun a Vie: 8am - 6pm</p>
+                    <p><strong>Ubicación:</strong> Lima, Perú</p>
+                    <p style="margin-top: 10px;">
+                        <a href="Footer/footer_2/denuncias.html" target="blank" style="display:inline; color: #fdf5bf; font-weight: bold; text-decoration: underline;">
+                        Envía tu denuncia aquí
+                        </a>
+                    </p>
+                </div> 
+            </div>
+            <div class="copyright">
+                © 2026 Noticias Perú | Todos los derechos reservados.
+            </div>
+        </footer>
+    </div>
+    <script>
+        // 1. Buscador y Correo
+        const searchInput = document.getElementById('searchInput');
+        const newsCards = document.querySelectorAll('.news-card');
+
+        if(searchInput) {
+            searchInput.addEventListener('input', function(evento) {
+                const textoBuscado = evento.target.value.toLowerCase();
+                newsCards.forEach(function(card) {
+                    const titulo = card.querySelector('h3').textContent.toLowerCase();
+                    const parrafo = card.querySelector('p').textContent.toLowerCase();
+                    if (titulo.includes(textoBuscado) || parrafo.includes(textoBuscado)) card.style.display = 'flex';
+                    else card.style.display = 'none';
+                });
+            });
+        }
+
+        function validarCorreo() {
+            const email = document.getElementById('emailInput').value;
+            if (email === '') alert('⚠️ Por favor, ingresa tu correo electrónico antes de suscribirte.');
+            else { alert('✅ ¡Suscripción exitosa! Las mejores noticias llegarán pronto a: ' + email); document.getElementById('emailInput').value = ''; }
+        }
+
+        // 2. DICCIONARIO INTELIGENTE (RESPETA EMOJIS Y ETIQUETAS HTML)
+        const diccionario = {
+            'English': {
+                'noticias perú 🌍': 'PERU NEWS 🌍',
+                '⚽ deportes': '⚽ Sports', '📈 economía': '📈 Economy', '🏛️ política': '🏛️ Politics', '🚗 tránsito': '🚗 Traffic', '☁️ clima': '☁️ Weather', '👤 iniciar sesión': '👤 Log In',
+                'información confiable': 'Reliable Information', '🏠 ventas': '🏠 Sales', '💼 negocios': '💼 Business', '⚕️ medicina': '⚕️ Medicine', '👥 comunidad': '👥 Community',
+                'otros': 'Others', '📺 espectáculos': '📺 Shows', '🎭 entretenimiento': '🎭 Entertainment', '🌎 mundo': '🌎 World', '⚙️ configuración': '⚙️ Settings',
+                'auspiciadores': 'Sponsors', 'oferta académica': 'Academic Offer', '🎓 ¡estudia diseño web! matrículas abiertas con 20% de dscto.': '🎓 Study Web Design! 20% discount.',
+                'cyber wow 2026': 'Cyber Wow 2026', '¡renueva tu smart tv con hasta 60% de descuento!': 'Renew your Smart TV with up to 60% off!',
+                '🔥 lo más leído': '🔥 Most Read', 'acuerdo internacional': 'International Agreement', 'dólar en crisis': 'Dollar in Crisis', 'mundial a la vista': 'World Cup in Sight',
+                '✉️ boletín diario': '✉️ Daily Newsletter', 'recibe las mejores noticias en tu correo.': 'Receive the best news in your email.', 'suscribirse': 'Subscribe',
+                'noticias perú': 'Peru News', 'portal informativo líder e independiente con noticias de actualidad nacional e internacional. nos dedicamos a llevar la información más veraz, con un análisis profundo del acontecer político, económico, deportivo y tecnológico de nuestro país.': 'Leading independent informative portal with national and international news. We are dedicated to providing the most truthful information, with deep analysis.',
+                'secciones': 'Sections', 'política': 'Politics', 'deportes': 'Sports', 'comunidad': 'Community', 'entretenimiento': 'Entertainment', 'mundo': 'World',
+                'acerca de nosotros': 'About Us', 'somos un medio de comunicación líder y comprometido con la verdad. llevamos la información más relevante del acontecer diario de manera objetiva, transparente e inmediata. nuestro equipo trabaja las 24 horas para ofrecer una cobertura completa de la actualidad nacional e internacional, impulsando el periodismo ciudadano y la libertad de expresión en todo el país.': 'We are a leading media outlet committed to the truth. We deliver the most relevant daily news objectively, transparently, and immediately.',
+                'legales': 'Legal', 'términos y condiciones': 'Terms and Conditions', 'política de privacidad': 'Privacy Policy', 'política de cookies': 'Cookies Policy', 'propiedad intelectual': 'Intellectual Property', 'libro de reclamaciones': 'Complaints Book',
+                'contacto': 'Contact', '<strong>redacción:</strong> noticias@peru.com': '<strong>Editorial:</strong> noticias@peru.com', '<strong>teléfono:</strong> +51 999 999 999': '<strong>Phone:</strong> +51 999 999 999', '<strong>horario:</strong> lun a vie: 8am - 6pm': '<strong>Hours:</strong> Mon to Fri: 8am - 6pm', '<strong>ubicación:</strong> lima, perú': '<strong>Location:</strong> Lima, Peru',
+                'envía tu denuncia aquí': 'Submit your report here', '© 2026 noticias perú | todos los derechos reservados.': '© 2026 Peru News | All rights reserved.'
+            },
+            'Português': {
+                'noticias perú 🌍': 'NOTÍCIAS PERÚ 🌍',
+                '⚽ deportes': '⚽ Esportes', '📈 economía': '📈 Economia', '🏛️ política': '🏛️ Política', '🚗 tránsito': '🚗 Trânsito', '☁️ clima': '☁️ Clima', '👤 iniciar sesión': '👤 Iniciar Sessão',
+                'información confiable': 'Informação Confiável', '🏠 ventas': '🏠 Vendas', '💼 negocios': '💼 Negócios', '⚕️ medicina': '⚕️ Medicina', '👥 comunidad': '👥 Comunidade',
+                'otros': 'Outros', '📺 espectáculos': '📺 Espetáculos', '🎭 entretenimiento': '🎭 Entretenimento', '🌎 mundo': '🌎 Mundo', '⚙️ configuración': '⚙️ Configurações',
+                'auspiciadores': 'Patrocinadores', 'oferta académica': 'Oferta Acadêmica', '🎓 ¡estudia diseño web! matrículas abiertas con 20% de dscto.': '🎓 Estude Web Design! 20% de desconto.',
+                'cyber wow 2026': 'Cyber Wow 2026', '¡renueva tu smart tv con hasta 60% de descuento!': 'Renove sua Smart TV com até 60% de desconto!',
+                '🔥 lo más leído': '🔥 Mais Lidos', 'acuerdo internacional': 'Acordo Internacional', 'dólar en crisis': 'Dólar em Crise', 'mundial a la vista': 'Copa à Vista',
+                '✉️ boletín diario': '✉️ Boletim Diário', 'recibe las mejores noticias en tu correo.': 'Receba as melhores notícias no seu e-mail.', 'suscribirse': 'Inscrever-se',
+                'noticias perú': 'Notícias Perú', 'portal informativo líder e independiente con noticias de actualidad nacional e internacional. nos dedicamos a llevar la información más veraz, con un análisis profundo del acontecer político, económico, deportivo y tecnológico de nuestro país.': 'Portal informativo líder e independente. Nos dedicamos a levar a informação mais verdadeira, com análises profundas.',
+                'secciones': 'Seções', 'política': 'Política', 'deportes': 'Esportes', 'comunidad': 'Comunidade', 'entretenimiento': 'Entretenimento', 'mundo': 'Mundo',
+                'acerca de nosotros': 'Sobre Nós', 'somos un medio de comunicación líder y comprometido con la verdad. llevamos la información más relevante del acontecer diario de manera objetiva, transparente e inmediata. nuestro equipo trabaja las 24 horas para ofrecer una cobertura completa de la actualidad nacional e internacional, impulsando el periodismo ciudadano y la libertad de expresión en todo el país.': 'Somos um meio de comunicação líder e comprometido com a verdade. Levamos a informação mais relevante do dia a dia.',
+                'legales': 'Legais', 'términos y condiciones': 'Termos e Condições', 'política de privacidad': 'Política de Privacidade', 'política de cookies': 'Política de Cookies', 'propiedad intelectual': 'Propriedade Intelectual', 'libro de reclamaciones': 'Livro de Reclamações',
+                'contacto': 'Contato', '<strong>redacción:</strong> noticias@peru.com': '<strong>Redação:</strong> noticias@peru.com', '<strong>teléfono:</strong> +51 999 999 999': '<strong>Telefone:</strong> +51 999 999 999', '<strong>horario:</strong> lun a vie: 8am - 6pm': '<strong>Horário:</strong> Seg a Sex: 8am - 6pm', '<strong>ubicación:</strong> lima, perú': '<strong>Localização:</strong> Lima, Peru',
+                'envía tu denuncia aquí': 'Envie sua denúncia aqui', '© 2026 noticias perú | todos los derechos reservados.': '© 2026 Notícias Perú | Todos os direitos reservados.'
+            },
+            'Français': {
+                'noticias perú 🌍': 'NOUVELLES PÉROU 🌍',
+                '⚽ deportes': '⚽ Sports', '📈 economía': '📈 Économie', '🏛️ política': '🏛️ Politique', '🚗 tránsito': '🚗 Trafic', '☁️ clima': '☁️ Météo', '👤 iniciar sesión': '👤 Se Connecter',
+                'información confiable': 'Information Fiable', '🏠 ventas': '🏠 Ventes', '💼 negocios': '💼 Affaires', '⚕️ medicina': '⚕️ Médecine', '👥 comunidad': '👥 Communauté',
+                'otros': 'Autres', '📺 espectáculos': '📺 Spectacles', '🎭 entretenimiento': '🎭 Divertissement', '🌎 mundo': '🌎 Monde', '⚙️ configuración': '⚙️ Paramètres',
+                'auspiciadores': 'Sponsors', 'oferta académica': 'Offre Académique', '🎓 ¡estudia diseño web! matrículas abiertas con 20% de dscto.': '🎓 Étudiez le Web Design! 20% de réduction.',
+                'cyber wow 2026': 'Cyber Wow 2026', '¡renueva tu smart tv con hasta 60% de descuento!': 'Renouvelez votre Smart TV avec 60% de réduction!',
+                '🔥 lo más leído': '🔥 Les Plus Lus', 'acuerdo internacional': 'Accord International', 'dólar en crisis': 'Dollar en Crise', 'mundial a la vista': 'Coupe du Monde en Vue',
+                '✉️ boletín diario': '✉️ Bulletin Quotidien', 'recibe las mejores noticias en tu correo.': 'Recevez les meilleures nouvelles dans votre e-mail.', 'suscribirse': "S'abonner",
+                'noticias perú': 'Nouvelles Pérou', 'portal informativo líder e independiente con noticias de actualidad nacional e internacional. nos dedicamos a llevar la información más veraz, con un análisis profundo del acontecer político, económico, deportivo y tecnológico de nuestro país.': 'Portail d\'information leader et indépendant. Nous sommes dédiés à fournir l\'information la plus véridique, avec une analyse approfondie.',
+                'secciones': 'Sections', 'política': 'Politique', 'deportes': 'Sports', 'comunidad': 'Communauté', 'entretenimiento': 'Divertissement', 'mundo': 'Monde',
+                'acerca de nosotros': 'À Propos de Nous', 'somos un medio de comunicación líder y comprometido con la verdad. llevamos la información más relevante del acontecer diario de manera objetiva, transparente e inmediata. nuestro equipo trabaja las 24 horas para ofrecer una cobertura completa de la actualidad nacional e internacional, impulsando el periodismo ciudadano y la libertad de expresión en todo el país.': 'Nous sommes un média leader engagé pour la vérité. Nous livrons les nouvelles quotidiennes les plus pertinentes objectivement.',
+                'legales': 'Mentions Légales', 'términos y condiciones': 'Termes et Conditions', 'política de privacidad': 'Politique de Confidentialité', 'política de cookies': 'Politique de Cookies', 'propiedad intelectual': 'Propriété Intellectuelle', 'libro de reclamaciones': 'Livre de Réclamations',
+                'contacto': 'Contact', '<strong>redacción:</strong> noticias@peru.com': '<strong>Rédaction:</strong> noticias@peru.com', '<strong>teléfono:</strong> +51 999 999 999': '<strong>Téléphone:</strong> +51 999 999 999', '<strong>horario:</strong> lun a vie: 8am - 6pm': '<strong>Horaires:</strong> Lun à Ven: 8am - 6pm', '<strong>ubicación:</strong> lima, perú': '<strong>Emplacement:</strong> Lima, Pérou',
+                'envía tu denuncia aquí': 'Envoyez votre plainte ici', '© 2026 noticias perú | todos los derechos reservados.': '© 2026 Nouvelles Pérou | Tous droits réservés.'
+            }
+        };
+
+        function aplicarIdioma(idioma) {
+            const placeholders = [document.getElementById('searchInput'), document.getElementById('emailInput')];
+            placeholders.forEach(el => {
+                if (el) {
+                    if (!el.hasAttribute('data-origen-placeholder')) el.setAttribute('data-origen-placeholder', el.placeholder || '');
+                    if (el.id === 'searchInput') {
+                        el.placeholder = idioma === 'English' ? "What do you want to search?" : idioma === 'Português' ? "O que você quer procurar?" : idioma === 'Français' ? "Que voulez-vous chercher?" : el.getAttribute('data-origen-placeholder');
+                    } else {
+                        el.placeholder = idioma === 'English' ? "Your email address" : idioma === 'Português' ? "Seu e-mail" : idioma === 'Français' ? "Votre adresse e-mail" : el.getAttribute('data-origen-placeholder');
+                    }
+                }
+            });
+
+            const elementos = document.querySelectorAll('.main-header h1, .top-nav .nav-links a, .top-nav .login a, .sidebar h1, .sidebar h2, .sidebar h3, .sidebar h4, .sidebar a, .sidebar span, .sidebar p, .sidebar-widget p, .sidebar-ad-box span, .sidebar-ad-box p, .sidebar-ad-box h4, footer h3, footer p, footer a, footer button, .copyright');
+            
+            elementos.forEach(el => {
+                // EXTREMADAMENTE IMPORTANTE: Esto es lo que protege tus iconos de las redes sociales.
+                if (el.querySelector('img')) return;
+
+                if (!el.hasAttribute('data-origen-html')) {
+                    el.setAttribute('data-origen-html', el.innerHTML.trim()); 
+                }
+                const htmlOriginal = el.getAttribute('data-origen-html');
+                const htmlClave = htmlOriginal.toLowerCase().replace(/\s+/g, ' '); 
+                
+                if (idioma === 'Español') {
+                    el.innerHTML = htmlOriginal;
+                } else if (diccionario[idioma] && diccionario[idioma][htmlClave]) {
+                    el.innerHTML = diccionario[idioma][htmlClave];
+                }
+            });
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const temaGuardado = localStorage.getItem('temaWeb') || 'claro';
+            const idiomaGuardado = localStorage.getItem('idiomaWeb') || 'Español';
+
+            if (temaGuardado === 'oscuro' || (temaGuardado === 'sistema' && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                const estiloOscuro = document.createElement('style');
+                estiloOscuro.innerHTML = `
+                    body, .wrapper, .news-grid, #footer, .sidebar, .main-content { background-color: #1a1a1a !important; color: #f5f5f5 !important; }
+                    .main-header { background-color: #111111 !important; color: #ffffff !important; }
+                    .news-card, .card { background: #2a2a2a !important; border: 1px solid #444 !important; box-shadow: none !important; }
+                    label, p, h1, h2, h3, h4, li a, .news-info h3, .news-info p { color: #ffffff !important; }
+                    input, select { background-color: #333 !important; color: #fff !important; border: 1px solid #555 !important; }
+                    .top-nav { background-color: #222 !important; border-bottom: 1px solid #444 !important; }
+                    .nav-links a { color: #ddd !important; }
+                    .sidebar-box { background: #222 !important; border: 1px solid #444 !important; }
+                `;
+                document.head.appendChild(estiloOscuro);
+            }
+            aplicarIdioma(idiomaGuardado);
+        });
+    </script>
+</body>
+</html>
