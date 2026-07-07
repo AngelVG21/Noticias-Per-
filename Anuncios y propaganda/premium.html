@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripción Premium - 50% Dscto</title>
+    <style>
+        :root { --c-gray: #9aa0a8; --c-slate: #36494e; --c-dark: #1b2527; --c-neon: #d9f812; --c-cream: #fdf5bf; --c-red: #d33f49; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background-color: var(--c-dark); color: var(--c-cream); display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; text-align: center; }
+        .premium-box { background-color: var(--c-slate); border-top: 5px solid var(--c-neon); max-width: 600px; padding: 40px; border-radius: 8px; box-shadow: 0 10px 25px rgba(0,0,0,0.5); }
+        h1 { color: var(--c-neon); font-size: 2.2rem; margin-bottom: 15px; }
+        p { color: var(--c-cream); font-size: 1.1rem; line-height: 1.6; margin-bottom: 30px; }
+        .price { font-size: 3rem; font-weight: bold; color: var(--c-red); display: block; margin-bottom: 30px; }
+        .btn { display: inline-block; background-color: var(--c-neon); color: var(--c-dark); padding: 15px 30px; font-size: 1.2rem; font-weight: bold; text-decoration: none; border-radius: 5px; transition: 0.3s; margin-bottom: 20px; }
+        .btn:hover { background-color: var(--c-cream); }
+        .back { display: block; color: var(--c-gray); text-decoration: none; font-size: 0.9rem; }
+        .back:hover { color: var(--c-neon); }
+    </style>
+</head>
+<body>
+    <div class="premium-box">
+        <h1>🌟 Acceso Premium Ilimitado</h1>
+        <p>Lee todas las noticias sin publicidad, accede a contenido exclusivo de nuestros autores y recibe el boletín dominical de economía directamente en tu correo.</p>
+        <span class="price">S/ 15.00 <span style="font-size:1rem; color:var(--c-gray);">/mes</span></span>
+        <a href="#" class="btn" onclick="alert('¡Felicidades! Tu suscripción Premium ha sido activada.'); return false;">Suscribirme al 50%</a>
+        <a href="../index.html" class="back">← Volver al inicio</a>
+    </div>
+</body>
+</html>

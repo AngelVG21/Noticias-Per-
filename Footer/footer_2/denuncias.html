@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../Genero noticias archivos/styles.css">
+</head>
+<body>
+    <div class="contenido-legal">
+    <h1>Envía tu Denuncia Ciudadana</h1>
+    <p class="fecha-actualizacion">Canal de atención y fiscalización periodística 2026</p>
+    
+    <p>En Noticias Perú creemos firmemente en el poder del periodismo ciudadano. Si has sido testigo de un acto de corrupción, negligencia de las autoridades, problemas de infraestructura en tu comunidad, o cualquier hecho de interés público que deba ser expuesto, ponemos a tu disposición este canal oficial de comunicación directa con nuestro equipo de investigación periodística.</p>
+
+    <h2>1. Compromiso de Confidencialidad y Anonimato</h2>
+    <p>Garantizamos de manera absoluta y bajo el amparo de la legislación sobre la libertad de expresión y el secreto profesional, que la identidad de todos nuestros denunciantes se mantendrá bajo estricta reserva y anonimato si así lo solicitan. Tu seguridad es lo más importante para nosotros.</p>
+
+    <h2>2. Formulario de Registro de Denuncia</h2>
+    <p>Por favor, complete cada uno de los campos requeridos a continuación de manera minuciosa para que nuestro equipo de redacción pueda procesar y verificar su caso:</p>
+    
+    <form class="formulario-denuncia" action="#" method="POST" enctype="multipart/form-data">
+        
+        <div class="grupo-formulario">
+            <label for="titulo">Título de la Denuncia:</label>
+            <input type="text" id="titulo" name="titulo" placeholder="Ej. Obras abandonadas en la Av. Principal" required>
+            <span class="ayuda-campo">Escribe un resumen corto del problema.</span>
+        </div>
+        
+        <div class="grupo-formulario">
+            <label for="ubicacion">Ubicación y Detalles Geográficos:</label>
+            <input type="text" id="ubicacion" name="ubicacion" placeholder="Especificar Región, Provincia y Distrito" required>
+            <span class="ayuda-campo">Indica dónde ocurrió el incidente de la manera más exacta posible.</span>
+        </div>
+        
+        <div class="grupo-formulario">
+            <label for="descripcion">Narración Detallada del Suceso:</label>
+            <textarea id="descripcion" name="descripcion" rows="6" placeholder="Escribe aquí de forma cronológica todo lo que pasó, quiénes están involucrados y el impacto en la comunidad..." required></textarea>
+        </div>
+        
+        <div class="grupo-formulario">
+            <label for="evidencia">Adjuntar Evidencias Multimedia:</label>
+            <div class="zona-archivo">
+                <input type="file" id="evidencia" name="evidencia" accept="image/*,video/*" required>
+            </div>
+            <span class="ayuda-campo">Es obligatorio subir fotos o videos nítidos que respalden tu denuncia.</span>
+        </div>
+        
+        <div class="grupo-formulario">
+            <label>Tipo de Privacidad del Denunciante:</label>
+            <div class="opciones-privacidad">
+                <label class="opcion-radio">
+                    <input type="radio" name="privacidad" value="publico">
+                    <span>Deseo que mi nombre aparezca en los créditos de la nota periodística.</span>
+                </label>
+                <label class="opcion-radio">
+                    <input type="radio" name="privacidad" value="anonimo" checked>
+                    <span class="destacado-anonimo">Deseo mantener mi identidad bajo estricto anonimato (Recomendado).</span>
+                </label>
+            </div>
+        </div>
+        
+        <button type="submit" class="boton-enviar">Enviar Denuncia al Equipo de Redacción</button>
+
+    </form>
+    <h2>3. Proceso de Verificación y Publicación</h2>
+    <p>Una vez enviado el formulario, nuestro equipo de redacción central revisará las pruebas en un plazo no mayor a 24 horas hábiles. Si la denuncia cuenta con el sustento suficiente, un reportero se pondrá en contacto contigo (a través de un correo seguro) para ampliar los detalles y, posteriormente, redactar el artículo que será publicado en la portada de nuestro diario digital.</p>
+</div>
+</body>
+</html>

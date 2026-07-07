@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Auto Eléctrico Perú</title>
+    <style>
+        :root { --c-gray: #9aa0a8; --c-slate: #36494e; --c-dark: #1b2527; --c-neon: #d9f812; --c-cream: #fdf5bf; --c-red: #d33f49; }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background-color: var(--c-cream); color: var(--c-dark); display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+
+        .auto-container { background-color: white; border: 2px solid var(--c-slate); max-width: 800px; padding: 50px; text-align: center; }
+        .tag { background-color: var(--c-slate); color: var(--c-neon); padding: 5px 15px; font-weight: bold; letter-spacing: 2px; margin-bottom: 20px; display: inline-block; }
+        h1 { font-size: 2.8rem; margin-bottom: 20px; color: var(--c-dark); }
+        p { font-size: 1.1rem; color: var(--c-slate); margin-bottom: 40px; line-height: 1.5; }
+        .btn-test { display: inline-block; background-color: var(--c-dark); color: var(--c-cream); padding: 15px 40px; font-size: 1.1rem; text-decoration: none; font-weight: bold; border: 2px solid var(--c-dark); transition: 0.3s; }
+        .btn-test:hover { background-color: transparent; color: var(--c-dark); }
+        .back { display: block; margin-top: 30px; color: var(--c-red); text-decoration: none; font-weight: bold; }
+        .back:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="auto-container">
+        <div class="tag">MOVILIDAD DEL FUTURO</div>
+        <h1>El primer auto 100% inteligente.</h1>
+        <p>Cero emisiones. Conducción autónoma en autopista. Más de 600km de autonomía con una sola carga. Sé uno de los primeros en probar el futuro en las calles de Lima.</p>
+
+        <a href="#" class="btn-test" onclick="alert('¡Prueba de manejo agendada! Un asesor se pondrá en contacto contigo pronto.'); return false;">🚘 Agendar Prueba de Manejo</a>
+        <a href="../index.html" class="back">← Regresar a Noticias Perú</a>
+    </div>
+</body>
+</html>
